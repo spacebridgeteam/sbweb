@@ -1,0 +1,278 @@
+@charset "UTF-8";
+body {
+  background-color: black;;
+}
+
+table {
+  width: 100%;
+  border: 1px solid white;
+}
+
+td, th {
+  text-align: center;
+  border: 1px solid white;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  background-image: linear-gradient(to left, red, black);
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+
+h3 {
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  color: white;
+}
+
+.autorFooter {
+  /* autor footer */
+  text-align: center;
+}
+
+.linksFooter {
+  /* links del footer */
+  text-align: right;
+  font-family: "Nunito", sans-serif;
+  margin-right: 20px;
+}
+
+ul li {
+  /* listas desordenadas*/
+  list-style-type: none;
+  color: white;
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+}
+
+.vision {
+  margin-left: 29%;
+  justify-content: center;
+  align-items: center;
+}
+
+ol li {
+  /* listas ordenadas */
+  list-style-type: none;
+  color: white;
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+}
+
+.vermas {
+  /* ver más en itálica */
+  font-style: italic;
+}
+
+.azul {
+  color: blue;
+}
+
+button {
+  background-color: grey;
+  font-family: "Nunito", sans-serif;
+}
+
+label {
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+
+input {
+  color: black;
+  background-color: white;
+  font-family: "Nunito", sans-serif;
+}
+
+nav {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+nav button {
+  display: inline-block;
+  padding: 20px;
+}
+nav button:hover {
+  background-color: red;
+  transform: scale(1.1);
+}
+
+main {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+span {
+  text-align: center;
+}
+
+.integrante li {
+  text-align: center;
+}
+
+.logo {
+  width: 50px;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
+.logoFooter {
+  width: 200px;
+  height: 166.6666666667px;
+  margin-bottom: 75px;
+}
+
+.tablaContacto {
+  width: fit-content;
+  margin-left: 525px;
+  border: none;
+}
+.tablaContacto td {
+  font-weight: bold;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .tablaContacto {
+    margin-left: 10px;
+  }
+}
+.imagenNoticia {
+  width: 100px;
+  height: 100px;
+}
+
+.principalNews {
+  width: 500px;
+  height: 300px;
+}
+
+.clase_nueva {
+  background: none;
+  margin:0;
+}
+
+header {
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  header {
+    flex-direction: row;
+  }
+}
+.contenedorCards {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+@media (min-width: 768px) {
+  .contenedorCards {
+    flex-direction: row;
+  }
+}
+@media (max-width: 768px) {
+  .tablaContacto {
+    text-align: center;
+    width: fit-content;
+  }
+}
+.secondaryNews {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainNews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 75px;
+}
+
+@media (min-width: 768px) {
+  .mainNews {
+    flex-direction: row;
+  }
+}
+.newsColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsRow p {
+  margin-left: 25px;
+}
+
+.newsMainRow {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  font-size: 40px;
+}
+
+.card {
+  background-color: black;
+  color: white;
+  margin: 2rem;
+}
+
+.iconos {
+  margin-left: 36%;
+}
+
+.btn {
+  background-color: grey;
+  border-color: grey;
+}
+
+.btn:hover {
+  background-color: #f55252;
+  border-color: #f55252;
+}
+
+.my-sm-0 {
+  color: white;
+}
+
+.navbar {
+  background-color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */
